@@ -20,7 +20,6 @@ const App = () => {
   const handleOrderPopup = () => {
     setOrderPopup(!orderPopup);
   };
-
   React.useEffect(() => {
     AOS.init({
       offset: 100,
@@ -51,12 +50,7 @@ const App = () => {
               </>
             }
           />
-          {/* Locator Route */}
-          <Route
-            path="/locator"
-            element={<Locator handleOrderPopup={handleOrderPopup} />}
-          />
-          {/* Receipt Route */}
+          <Route path="/locator" element={<Locator />} />
           <Route path="/receipt" element={<Receipt />} />
         </Routes>
         <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
