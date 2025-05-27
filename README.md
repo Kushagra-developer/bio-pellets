@@ -1,6 +1,3 @@
-const fs = require('fs');
-
-// Sexy README content
 const readmeContent = `
 # 🌱 Bio Pellet Plant Locator
 
