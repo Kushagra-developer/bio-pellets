@@ -1,4 +1,3 @@
-const readmeContent = `
 # 🌱 Bio Pellet Plant Locator
 
 > **Empowering a greener tomorrow, one plant at a time.**
