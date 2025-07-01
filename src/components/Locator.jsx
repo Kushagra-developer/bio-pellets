@@ -99,7 +99,6 @@ const Locator = () => {
     }
   };
 
-  // Only show the Razorpay payment button if payment is not complete
   if (!paymentComplete) {
     const handleRazorpayPayment = () => {
       const options = {
@@ -149,7 +148,6 @@ const Locator = () => {
     );
   }
     
-  // Once payment is complete, show the plant locator UI
   return (
     <div style={{ maxWidth: '900px', margin: '0 auto', padding: '30px', fontFamily: 'Segoe UI, sans-serif', backgroundColor: '#f5f7fa', borderRadius: '12px', boxShadow: '0 6px 18px rgba(0,0,0,0.1)' }}>
       <h2 style={{ fontSize: '28px', fontWeight: 'bold', color: '#2b6777', marginBottom: '20px', textAlign: 'center' }}>🌿 Bio Pellet Plant Locator</h2>
