@@ -3,8 +3,8 @@ import React from 'react';
 const PaymentGate = ({ onPaymentSuccess }) => {
   const handlePayment = () => {
     const options = {
-      key: 'rzp_test_YourKeyHere', // 🔑 Replace with your Razorpay Test Key
-      amount: 1, // Amount in paise (1 = ₹0.01), use 0 for testing (Razorpay requires at least ₹0.01)
+      key: 'rzp_test_YourKeyHere', 
+      amount: 1, 
       currency: 'INR',
       name: 'Bio Pellet Locator',
       description: 'Access Plant Locator',
