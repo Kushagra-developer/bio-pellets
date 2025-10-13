@@ -3,7 +3,7 @@ import React from 'react';
 const PaymentGate = ({ onPaymentSuccess }) => {
   const handlePayment = () => {
     const options = {
-      key: 'rzp_test_YourKeyHere', 
+      key: 'rzp_test_RpcGXevGHzUVrf', 
       amount: 1, 
       currency: 'INR',
       name: 'Bio Pellet Locator',
